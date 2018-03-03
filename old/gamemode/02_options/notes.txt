@@ -1,0 +1,43 @@
+Options:
+
+Text Speed
+	Slow
+	Medium
+	Fast
+Language (aka font for stuff like motherland, JAPANESE, and 1337)
+	American
+	Mexican
+	British
+	lol
+	nazi
+	motherland
+	JAPANESE
+	roflchina
+	corean
+	terrorist
+	ghetto
+	lolcode
+	1337
+Vulgarity
+	On
+	Off
+Adult Scenes
+	None
+	Little
+	All
+Border Style
+	Normal		- regular border. slightly bluish noise backdrop and striped sides
+	Alternate	- alternate border. wood backdrop, and striped sides
+	Royal		- Red, royal stuff/drapes
+	Oeste		- Orange, Californian/Santa Monica style (beach, sunset, etc)
+	Yolk		- Yellow, egg yolk, eggs, maybe an omelette
+	Graph		- Green, topographical and mathematical graphs (parabolas, etc)
+	Bubble		- Blue, bubbles everywhere. maybe a duck as well
+	Ink blot	- Indigo, ink blots. quill in the corner, ink holder in other corner
+	Van de Graaf	- Violet, van de graaf generators, electricity in general
+	Vanilla		- cement blocks, smw dirt, etc
+	Chocolate	- YI blocks, SMAS dirt, etc
+	Kaizo		- munchers and ? blocks everywhere
+	Avant-Garde	- glitchy border. maybe use RAM so it changes
+	Bonni		- Bonni's Quest/Japanese style
+	None		- No border (looks blech)

@@ -1,0 +1,7 @@
+$0000-$27FF	layer 1 gfx	(5 4kb files, or more than enough for 256x152)
+$2800-$2FFF	layer 1 tilemap (512x256 or 256x512)
+$3000-$3FFF	layer 2 gfx	(2 4kb files, or enough for 128x128)
+$4000-$53FF	layer 3 gfx	(5 2kb files)
+$5400-$5BFF	layer 2 tilemap (512x256)
+$5C00-$5FFF	layer 3 tilemap (512x256)
+$6000-$7FFF	sprites

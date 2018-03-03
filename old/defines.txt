@@ -1,0 +1,96 @@
+!mode = $10		;game mode
+!submode = $11		;sub game mode
+!brightness = $12	;brightness, stores to $2100
+!frame = $13		;current frame #
+!gfxmode = $14		;stores to $2105
+!timer = $15		;general use timer
+
+!joy1press = $16	;byetUDLR
+!joy1held = $17		;b(a)y(x)etUDLR
+!joy1press2 = $18	;axlr----
+!joy1held2 = $19	;axlr----
+
+!layer1x = $1A
+!layer1y = $1C
+!layer2x = $1E
+!layer2y = $20
+!layer3x = $22
+!layer3y = $24
+!layer4x = $26
+!layer4y = $28
+
+!joy2press = $2A
+!joy2press2 = $2B
+!joy2held = $2C
+!joy2held2 = $2D
+!joy1raw = $2E
+!joy2raw = $30
+
+!hdmareg = $3E
+!spritesize = $3F
+!cgadsub = $40
+!cgwsel = $41
+!mainscr = $42
+!subscr = $43
+
+;$8A-$8C used by decompression
+;$8D-$8E hold final size
+
+!oam = $7E0200
+!oamx = $0200
+!oamy = $0201
+!oamt = $0202
+!oamp = $0203
+!oamh = $7E0300
+!hoamx = $0300
+!hoamy = $0301
+!hoamt = $0302
+!hoamp = $0303
+!oamup = $0400
+!oamdata = $0420
+!hoamdata = $0420
+
+!textspeed = $04A0
+!language = $04A1
+!vulgarity = $04A2
+!adultscenes = $04A3
+!borderstyle = $04A4
+
+!color = $0500
+!bgcolor = $0700
+
+!hdmatable = $0702
+
+!vramtableindexer = $07F7
+!vramindexer = $07F9
+!vramupdate = $07FB
+!vrambufferloc = $07FC
+!vrambuffersize = $07FE
+!vrambuffer = $0800
+
+;vram buffer reserved for 0x800 bytes
+
+!textbuffer = $1000		;$20 bytes per 16x16 tile, reserving 4 times that.
+!textshadowbuffer = $1080	;$20 bytes per 16x16 tile, reserving 4 times that.
+!textbufferloc = $1100		;location in VRAM
+!textbuffersize = $1102		;size of transfer
+!textindex = $1104		;index to text
+!textindexbank = $1106		;bank byte of text
+
+!currentchar = $1107		;current character speaking/onscreen
+
+
+
+
+
+
+
+
+;SRAM DEFINES
+
+!SRAMnewgame = $306000		;nonzero if you have a save file
+!SRAMtextspeed = $306010
+!SRAMlanguage = $306011
+!SRAMvulgarity = $306012
+!SRAMadultscenes = $306013
+!SRAMborderstyle = $306014
